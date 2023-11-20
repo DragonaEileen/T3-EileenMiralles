@@ -6,6 +6,7 @@ public class Contador {
 	static void contador(int A, int B) {
 		
 		/* Declaración de variables */
+		/* Directamente con ternarios ponemos la variable más grande y la más pequeña */
 		int lesser = A > B ? B : A;
 		int greater = A > B ? A : B;
 			

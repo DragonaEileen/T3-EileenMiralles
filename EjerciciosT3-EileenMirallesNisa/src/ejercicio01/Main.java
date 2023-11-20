@@ -9,6 +9,14 @@ public class Main {
 	 * y muestra por pantalla n veces el mensaje “Eco…”. Desde el método main() lee un 
 	 * número introducido por el usuario por teclado y pasa este número como parámetro en la 
 	 * llamada a la función. **/
+	
+	/* Pruebas */
+	/* Comienzo Pruebas -->
+	 * Entrada:	hola	| S.Esperada: Excepción		| S.Obtenida: Excepción
+	 * Entrada:	-1		| S.Esperada: Reintroduce	| S.Obtenida: Reintroduce
+	 * Entrada:	3		| S.Esperada: 3 eco			| S.Obtenida: 3 eco
+	 * Fin Pruebas
+	 * */
 
 	public static void main(String[] args) {
 		
