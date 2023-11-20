@@ -11,9 +11,10 @@ public class Main {
 	
 	/* Pruebas */
 	/* Comienzo Pruebas -->
-	 * Entrada:	hola	| S.Esperada: Excepción		| S.Obtenida: Excepción
-	 * Entrada:	-1, 1	| S.Esperada: 1				| S.Obtenida: 1
-	 * Entrada:	3, 3	| S.Esperada: Reintroduce	| S.Obtenida: Reintroduce
+	 * Entrada:	a		| S.Esperada: True			| S.Obtenida: True
+	 * Entrada:	f		| S.Esperada: False			| S.Obtenida: False
+	 * Entrada:	3		| S.Esperada: False			| S.Obtenida: False
+	 * Entrada:	hola	| S.Esperada: Reintroduce	| S.Obtenida: Reintroduce
 	 * Fin Pruebas
 	 * */
 	
@@ -45,7 +46,7 @@ public class Main {
 		vocal = Funciones.vocaloid(character);
 
 		/* Syso de Respuesta */
-		System.out.println("El carácter es una vocal: ");
+		System.out.println("El carácter es una vocal: " + vocal);
 
 		/* Cierre de Scanner */
 		sc.close();
