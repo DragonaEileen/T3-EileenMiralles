@@ -46,7 +46,7 @@ public class Main {
 		Eco.eco(inputN);
 
 		/* Syso de Respuesta */
-		/* La respuesta se halla en otra clase */
+		/* La respuesta se halla en la otra clase */
 
 		/* Cierre de Scanner */
 		sc.close();
