@@ -1,6 +1,5 @@
 package ejercicio04;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
