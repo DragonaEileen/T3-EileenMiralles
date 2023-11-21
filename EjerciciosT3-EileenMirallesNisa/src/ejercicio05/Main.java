@@ -11,10 +11,10 @@ public class Main {
 	
 	/* Pruebas */
 	/* Comienzo Pruebas -->
-	 * Entrada:	a		| S.Esperada: True			| S.Obtenida: True
-	 * Entrada:	f		| S.Esperada: False			| S.Obtenida: False
-	 * Entrada:	3		| S.Esperada: False			| S.Obtenida: False
-	 * Entrada:	hola	| S.Esperada: Reintroduce	| S.Obtenida: Reintroduce
+	 * Entrada:	3		| S.Esperada: Tabla del 3	| S.Obtenida: Tabla del 3
+	 * Entrada:	hola	| S.Esperada: Excepción		| S.Obtenida: Excepción
+	 * Entrada:	-3		| S.Esperada: Tabla del -3	| S.Obtenida: Tabla del -3
+	 * Entrada:	3.5		| S.Esperada: Excepción		| S.Obtenida: Excepción
 	 * Fin Pruebas
 	 * */
 
