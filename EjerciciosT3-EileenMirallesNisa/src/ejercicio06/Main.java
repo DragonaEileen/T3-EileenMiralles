@@ -11,10 +11,12 @@ public class Main {
 	
 	/* Pruebas */
 	/* Comienzo Pruebas -->
-	 * Entrada:	3		| S.Esperada: Tabla del 3	| S.Obtenida: Tabla del 3
-	 * Entrada:	hola	| S.Esperada: Excepción		| S.Obtenida: Excepción
-	 * Entrada:	-3		| S.Esperada: Tabla del -3	| S.Obtenida: Tabla del -3
-	 * Entrada:	3.5		| S.Esperada: Excepción		| S.Obtenida: Excepción
+	 * Entrada:	0, 0, 0			| S.Esperada: Reintroduce	| S.Obtenida: Reintroduce
+	 * Entrada:	hola, hola, hola| S.Esperada: Excepción		| S.Obtenida: Excepción
+	 * Entrada:	1, 10, 10		| S.Esperada: 1256.63706	| S.Obtenida: 86~
+	 * 		Error: un + en vez de * en la formula
+	 * Entrada:	1, 10, 10		| S.Esperada: 1256.63706	| S.Obtenida: 1256.63706
+	 * Entrada:	2, 10, 10		| S.Esperada: 3141.59265	| S.Obtenida: 3141.59265
 	 * Fin Pruebas
 	 * */
 	
@@ -52,7 +54,7 @@ public class Main {
 				
 			}//Fin Try-Catch
 			
-		}while(option != 1 || option != 2);
+		}while(option != 1 && option != 2);
 		
 		/* Recogida de la altura */
 		do {
@@ -91,7 +93,10 @@ public class Main {
 		/* Algoritmo */
 		/* Vamos a llamar a la funcion cilinder() pasandole la opción, la altura y el radio, y desde esa función se harán
 		 * los calculos necesarios */
-		Funciones.Cilinder(option, altura, radio);
+		Funciones.Cylinder(option, altura, radio);
+		
+		/* Cierre de Scanner */
+		sc.close();
 		
 	}//FIN MAIN
 
