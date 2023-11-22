@@ -3,7 +3,7 @@ package ejercicio07;
 public class Funciones {
 	
 	/* Creamos una función que devuelva true si un número pasado es primo o false si es not */
-	static boolean esPrimo(int N) {
+	public static boolean esPrimo(int N) {
 		
 		/* Declaración de Variables */
 		/* Por claridad del code definimos una variable booleana para devolver */
