@@ -1,5 +1,6 @@
 package ejercicio07;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -44,7 +45,7 @@ public class Main {
 				System.out.print("Introduce un número: ");
 				inputN = sc.nextInt();
 				
-			}catch(Exception e){
+			}catch(InputMismatchException e){
 				
 				System.err.println("Dato no válido");
 				sc.nextLine();
