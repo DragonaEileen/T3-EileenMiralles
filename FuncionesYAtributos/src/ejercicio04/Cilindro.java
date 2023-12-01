@@ -1,7 +1,7 @@
 package ejercicio04;
 
 public class Cilindro {
-	
+
 	/* Declaración de Atributos */
 	/* Declaramos el radio y la altura del cilindro */
 	private double radioBase;
